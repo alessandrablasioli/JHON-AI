@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="it.unibo.sistemidigitali.exam.jhon_ai"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:4:3-68
+11-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:4:20-66
+12    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+12-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:5:3-73
+12-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:5:20-70
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:6:3-77
+13-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:6:20-75
+14
+15    <permission-group android:name="android.permission-group.MICROPHONE" />
+15-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:7:3-74
+15-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:7:21-71
+16
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:8:3-66
+17-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:8:20-63
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:9:3-64
+18-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:9:20-62
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:10:3-77
+19-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:10:20-74
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\5ac1e178612b656af871373508b96d60\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+22        android:name="it.unibo.sistemidigitali.exam.jhon_ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\5ac1e178612b656af871373508b96d60\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\5ac1e178612b656af871373508b96d60\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="it.unibo.sistemidigitali.exam.jhon_ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\5ac1e178612b656af871373508b96d60\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\5ac1e178612b656af871373508b96d60\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:12:3-33:17
+28        android:allowBackup="true"
+28-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:13:7-33
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\Acer\.gradle\caches\transforms-3\5ac1e178612b656af871373508b96d60\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@drawable/ic_film_off"
+32-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:14:7-43
+33        android:label="@string/tfe_re_app_name"
+33-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:15:7-46
+34        android:roundIcon="@drawable/ic_film_off"
+34-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:16:7-48
+35        android:supportsRtl="true"
+35-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:17:7-33
+36        android:theme="@style/AppTheme.Recommendation" >
+36-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:18:7-53
+37        <activity
+37-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:20:5-27:16
+38            android:name="it.unibo.sistemidigitali.exam.jhon_ai.UtteranceActivity"
+38-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:21:9-42
+39            android:exported="true" >
+39-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:22:9-32
+40            <intent-filter>
+40-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:23:7-26:23
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:24:9-61
+41-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:24:17-58
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:25:9-69
+43-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:25:19-66
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:29:5-32:63
+47            android:name="it.unibo.sistemidigitali.exam.jhon_ai.RecomendationAcivity"
+47-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:30:9-45
+48            android:exported="true"
+48-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:31:9-32
+49            android:windowSoftInputMode="adjustResize" />
+49-->C:\Users\Acer\AndroidStudioProjects\recommendation\android\app\src\main\AndroidManifest.xml:32:9-51
+50        <activity
+50-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+51            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+51-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+52            android:excludeFromRecents="true"
+52-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+55        <!--
+56            Service handling Google Sign-In user revocation. For apps that do not integrate with
+57            Google Sign-In, this service will never be started.
+58        -->
+59        <service
+59-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+60            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+60-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+61            android:exported="true"
+61-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+62            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+62-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+63            android:visibleToInstantApps="true" />
+63-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Acer\.gradle\caches\transforms-3\78da730b214b051a4bb9fb20df09ab5b\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\cab5d74eb6f0177622cdd6fe4b33aaa8\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\cab5d74eb6f0177622cdd6fe4b33aaa8\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\cab5d74eb6f0177622cdd6fe4b33aaa8\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\cab5d74eb6f0177622cdd6fe4b33aaa8\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\59eaf47ee2a28b889c5d2295c2effde6\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\59eaf47ee2a28b889c5d2295c2effde6\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Acer\.gradle\caches\transforms-3\59eaf47ee2a28b889c5d2295c2effde6\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+76            android:authorities="it.unibo.sistemidigitali.exam.jhon_ai.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Acer\.gradle\caches\transforms-3\2610b34a121ba0356caf1260ad504b31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Acer\.gradle\caches\transforms-3\63f2dcbef863ade60e70672fb38fa029\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Acer\.gradle\caches\transforms-3\63f2dcbef863ade60e70672fb38fa029\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Acer\.gradle\caches\transforms-3\63f2dcbef863ade60e70672fb38fa029\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

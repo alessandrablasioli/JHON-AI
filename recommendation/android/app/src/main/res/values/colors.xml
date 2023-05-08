@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="tfe_color_primary">#2737C6</color>
+  <color name="purple">#009BDF</color>
+  <color name="violet">#00B0BD</color>
+
+  <color name="none">#00673AB7</color>
+  <color name="tfe_color_primary_dark">#0063EA</color>
+  <color name="tfe_color_accent">#00C296</color>
+</resources>

@@ -1,0 +1,36 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+/*plugins {
+    id 'com.android.application' version '7.1.2' apply false
+    id 'com.android.library' version '7.1.2' apply false
+   // id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+    //id "org.jetbrains.kotlin.kapt" version "1.6.20" apply false
+}
+
+ */
+dependencyResolutionManagement{
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+   repositories {
+       google()
+       mavenCentral()
+   }
+}
+
+
+
+rootProject.name = 'JHON-AI'
+include ':app'
+
+/*task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ */
