@@ -14,7 +14,7 @@ The application also offers a recommendation system, i.e. the possibility of fin
     <a href="https://github.com/alessandrablasioli/JHON-AI/tree/main/recommendation"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/alessandrablasioli/JHON-AI/tree/main/demo">View Demo</a>
     ·
     <a href="https://github.com/alessandrablasioli/JHON-AI/issues">Report Bug</a>
     ·
